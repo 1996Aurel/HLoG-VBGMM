@@ -3,7 +3,7 @@
 ## Requirements: 
 
 - python >= 3.11.5
-- librairies: numpy, matplotlib, pandas, skimage, scipy, os, argparse, SimpleITK, nibabel
+- libraries: numpy, matplotlib, pandas, skimage, scipy, os, argparse, SimpleITK, nibabel
 
 ## Description: 
 
