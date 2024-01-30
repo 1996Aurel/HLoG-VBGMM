@@ -31,6 +31,6 @@ The figure below shows the different steps of the segmentation to obtain the blo
 
 The following figure allows to visualise the performance of the clustering with the Variational Bayesian Gaussian Mixture Model. On the left, we have all the blob candidates (in yellow) on the original MRI. In the middle, we have the final segmentation with all the glomeruli, and on the right, all the other blobs. 
 
-![plot](./figures/fig1.png)
+![plot](./figures/fig2.png)
 
 
