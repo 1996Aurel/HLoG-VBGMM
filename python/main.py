@@ -8,7 +8,7 @@ from utils import get_index_matrix_3D, get_mean_value, get_R_value, get_S_value
 from scipy import ndimage
 from skimage.measure import label, regionprops_table
 from sklearn.mixture import BayesianGaussianMixture
-from arguments_hlog import args
+from arguments import args
 
 
 def main():
