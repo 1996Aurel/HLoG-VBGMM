@@ -13,8 +13,8 @@ Here, for the first time, the model was used to estimate the glomerular number a
 
 ## Dataset:
 
-* seven three-dimensional MRI acquired at 30, 60, and 100 micron isotropic resolution
-* seven masks delineating the cortex and medulla on each kidney samples
+* seven three-dimensional MRI acquired at 30, 60, and 100 micron isotropic resolution (21 mri images in total)
+* seven masks delineating the cortex and medulla for each sample at different resolutions (21 mask images in total)
 
 ## Run the model:
 
