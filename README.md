@@ -9,7 +9,7 @@
 
 HLoG-VBGMM is a state-of-the-art blob detector based on Laplacian of Gaussian (LoG), Hessian analysis, and Variational Bayesian Gaussian Mixture Model (VBGMM). This model was previously used by K. Bennett _et al._ to count glomeruli in contrast-enhanced MRI (CE-MRI).
 
-Here, for the first time, the model was used to estimate the glomerular number and density of human _ex-vivo_ kidney samples from ultra high-field MRI (16.4T) acquired at 30-micron isotropique resolution. 
+Here, for the first time, the model was used to estimate the glomerular number and density of human _ex-vivo_ kidney samples from ultra high-field MRI (16.4T) acquired at 30-micron isotropic resolution. 
 
 ## Dataset:
 
@@ -21,9 +21,9 @@ Here, for the first time, the model was used to estimate the glomerular number a
 python main.py 'sample'
 ```
 
-## Reults
+## Results
 
-The figure below shows the different steps of the segmentation to obtain the blob candidates. The first image is an orignal MRI of a kidney sample acquired at 60 micron. The second image is the LoG filtered image at the optimum scale sigma. For details on how the parameter sigma is optimised, please refer to our paper. The third image represents the concave elliptical structure (potential glomeruli) detected by Hessian analysis. Finally, the last image shows the plausible blob candidates (in yellow), ie. the ones with the right size, on the original sample. 
+The figure below shows the different steps of the segmentation to obtain the blob candidates. The first image is an original MRI of a kidney sample acquired at 60 micron. The second image is the LoG filtered image at the optimum scale sigma. For details on how the parameter sigma is optimised, please refer to our paper. The third image represents the concave elliptical structure (potential glomeruli) detected by Hessian analysis. Finally, the last image shows the plausible blob candidates (in yellow), ie. the ones with the right size, on the original sample. 
 
 ![plot](./figures/fig1.png)
 
