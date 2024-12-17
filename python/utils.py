@@ -163,7 +163,7 @@ def optimale_scale_identification(mri, mask, min_sigma=1.5, step=0.05, n_iter=3)
         # Update sigma value
         i = round(i + step, ndigits=2)
 
-        return list_sigma, list_avg_score, LoG_norm, I, lambda1, lambda2, lambda3
+    return list_sigma, list_avg_score, LoG_norm, I, lambda1, lambda2, lambda3
     
 
 def hessian(im):
