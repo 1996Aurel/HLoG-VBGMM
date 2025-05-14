@@ -15,7 +15,7 @@ Here, for the first time, the model was used to estimate the glomerular number a
 
 The dataset consists of six three-dimensional MRI acquired at 30-micron isotropic resolution, obtained from healthy portions of 6 nephroctomy samples from 4 distinct patients, and 6 masks delineating the tissue from the background. 
 
-The MRIs and masks can be downloaded at: (add link)
+The MRIs and masks can be downloaded here: (add link)
 
 
 ## Project Structure 
@@ -23,7 +23,6 @@ The MRIs and masks can be downloaded at: (add link)
 ```
 HLoG_VBGMM/
 │
-├── HLoG_notebook.ipynb # Example notebook
 │
 ├── input/ 
 │ ├── sample_X.npy 
@@ -31,9 +30,12 @@ HLoG_VBGMM/
 │
 ├── output/ 
 ├── python/ 
-│ ├── arguments.py 
+│ ├── __init__.py
+│ └── arguments.py
 │ └── main.py
 │ └── utils.py 
+│
+├── HLoG_notebook.ipynb # Example notebook
 │
 ├── README.md # Project overview and instructions
 └── requirements.txt # Python dependencies
@@ -47,19 +49,13 @@ HLoG_VBGMM/
 
 ## Run the model:
 
+To run the model on a sample (e.g. A, B, C, D, or E), use the command prompt:
+
 ```
-python main.py 'sample'
+python main.py 'X'
 ```
-
-## Results
-
-The figure below shows the different steps of the segmentation to obtain the blob candidates. The first image is an original MRI of a kidney sample acquired at 60 micron. The second image is the LoG filtered image at the optimum scale sigma. For details on how the parameter sigma is optimised, please refer to our paper. The third image represents the concave elliptical structure (potential glomeruli) detected by Hessian analysis. Finally, the last image shows the plausible blob candidates (in yellow), ie. the ones with the right size, on the original sample. 
-
-![plot](./figures/fig1.png)
+Replace X with the sample identifier (e.g. A).
 
 
-The following figure allows to visualise the performance of the clustering with the Variational Bayesian Gaussian Mixture Model. On the left, we have all the blob candidates (in yellow) on the original MRI. In the middle, we have the final segmentation with all the glomeruli, and on the right, all the other blobs. 
-
-![plot](./figures/fig2.png)
 
 
