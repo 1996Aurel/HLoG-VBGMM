@@ -3,7 +3,7 @@
 ## Requirements: 
 
 - python >= 3.11.5
-- libraries: numpy, matplotlib, pandas, skimage, scipy, os, argparse, SimpleITK, nibabel
+- libraries: matplotlib, nibabel, numpy, pandas, scikit-image, scikit-learn, SimpleITK
 
 ## Description: 
 
@@ -17,7 +17,6 @@ The dataset consists of six three-dimensional MRI acquired at 30-micron isotropi
 
 The MRIs and masks can be downloaded here: (add link)
 
-
 ## Project Structure 
 
 ```
@@ -28,7 +27,8 @@ HLoG_VBGMM/
 │ ├── sample_X.npy 
 │ └── mask_X.npy 
 │
-├── output/ 
+├── output/
+│
 ├── python/ 
 │ ├── __init__.py
 │ └── arguments.py
