@@ -24,7 +24,7 @@ HLoG_VBGMM/
 │
 │
 ├── input/ 
-│ ├── sample_X.npy 
+│ ├── mri_X.npy 
 │ └── mask_X.npy 
 │
 ├── output/
@@ -54,7 +54,7 @@ To run the model on a sample (e.g. A, B, C, D, or E), use the command prompt:
 ```
 python main.py 'X'
 ```
-Replace X with the sample identifier (e.g. A).
+Replace X with the sample identifier (e.g. A, B, C, D, or E).
 
 
 
