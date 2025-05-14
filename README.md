@@ -20,6 +20,7 @@ The MRIs and masks can be downloaded at: (add link)
 
 ## Project Structure 
 
+'''
 HLoG_VBGMM/
 │
 ├── HLoG_notebook.ipynb # Example notebook
@@ -36,6 +37,8 @@ HLoG_VBGMM/
 │
 ├── README.md # Project overview and instructions
 └── requirements.txt # Python dependencies
+
+'''
 
 - **`input/`**
   Replace `X` with the sample identifier, such as `A`, `B`, `C`, `D`, or `E` (e.g. for sample A: `sample_A.npy` and `mask_A.npy`).
