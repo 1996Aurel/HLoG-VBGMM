@@ -13,7 +13,9 @@ Here, for the first time, the model was used to estimate the glomerular number a
 
 ## Dataset:
 
-* six three-dimensional MRI acquired at 30-micron isotropic resolution from 4 patients.
+The dataset consists of six three-dimensional MRI acquired at 30-micron isotropic resolution, obtained from healthy portions of 6 nephroctomy samples from 4 distinct patients.
+
+The images can be downloaded at: (add link)
 
 ## Run the model:
 
