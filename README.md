@@ -9,11 +9,11 @@
 
 HLoG-VBGMM is a state-of-the-art blob detector based on Laplacian of Gaussian (LoG), Hessian analysis, and Variational Bayesian Gaussian Mixture Model (VBGMM). This model was previously used by K. Bennett _et al._ to count glomeruli in contrast-enhanced MRI (CE-MRI).
 
-Here, for the first time, the model was used to estimate the glomerular number and density of human _ex-vivo_ kidney samples from ultra high-field MRI (16.4T) acquired at 30-micron isotropic resolution. 
+Here, for the first time, the model was used to estimate the glomerular number and density of human _ex vivo_ kidney samples from ultra high-field MRI (16.4T) acquired at 30-micron isotropic resolution. 
 
 ## Dataset:
 
-* six three-dimensional MRI acquired at 30-micron isotropic resolution (21 mri images in total) from 4 patients.
+* six three-dimensional MRI acquired at 30-micron isotropic resolution from 4 patients.
 
 ## Run the model:
 
