@@ -45,7 +45,7 @@ HLoG_VBGMM/
   Replace `X` with the sample identifier, such as `A`, `B`, `C`, `D`, or `E` (e.g. for sample A: `sample_A.npy` and `mask_A.npy`).
 
 - **`output/`**
-   Empty folder to save the masks generated when the segmentation is completed. 
+   Empty folder to save the segmentation masks. 
 
 ## Run the model:
 
