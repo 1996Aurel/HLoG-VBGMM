@@ -13,9 +13,35 @@ Here, for the first time, the model was used to estimate the glomerular number a
 
 ## Dataset:
 
-The dataset consists of six three-dimensional MRI acquired at 30-micron isotropic resolution, obtained from healthy portions of 6 nephroctomy samples from 4 distinct patients.
+The dataset consists of six three-dimensional MRI acquired at 30-micron isotropic resolution, obtained from healthy portions of 6 nephroctomy samples from 4 distinct patients, and 6 masks delineating the tissue from the background. 
 
-The images can be downloaded at: (add link)
+The MRIs and masks can be downloaded at: (add link)
+
+
+## Project Structure 
+
+HLoG_VBGMM/
+│
+├── HLoG_notebook.ipynb # Example notebook
+│
+├── input/ 
+│ ├── sample_X.npy 
+│ └── mask_X.npy 
+│
+├── output/ 
+├── python/ 
+│ ├── arguments.py 
+│ └── main.py
+│ └── utils.py 
+│
+├── README.md # Project overview and instructions
+└── requirements.txt # Python dependencies
+
+- **`input/`**
+  Replace `X` with the sample identifier, such as `A`, `B`, `C`, `D`, or `E` (e.g. for sample A: `sample_A.npy` and `mask_A.npy`).
+
+- **`output/`**
+   Empty folder to save the masks generated when the segmentation is completed. 
 
 ## Run the model:
 
