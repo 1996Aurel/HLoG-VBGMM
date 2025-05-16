@@ -15,7 +15,7 @@ Here, for the first time, the model was used to estimate the glomerular number a
 
 The dataset consists of six three-dimensional MRI acquired at 30-micron isotropic resolution, obtained from healthy portions of 6 nephroctomy samples from 4 distinct patients, and 6 masks delineating the tissue from the background. 
 
-The MRIs and masks used for this project can be downloaded here: [link](https://rdm.uq.edu.au/record/2024-RD003585)
+The MRIs and masks used for this project, along with the glomerular segmentation masks can be downloaded here: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15428478.svg)](https://doi.org/10.5281/zenodo.15428478)
 
 ## Project Structure 
 
