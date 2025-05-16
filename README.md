@@ -24,8 +24,8 @@ HLoG_VBGMM/
 │
 │
 ├── input/ 
-│ ├── mri_X.npy 
-│ └── mask_X.npy 
+│ ├── X_mri.npy 
+│ └── X_mask.npy 
 │
 ├── output/
 │
@@ -42,7 +42,7 @@ HLoG_VBGMM/
 ```
 
 - **`input/`**
-  Replace `X` with the sample identifier, such as `A`, `B`, `C`, `D`, or `E` (e.g. for sample A: `sample_A.npy` and `mask_A.npy`).
+  Replace `X` with the sample identifier, such as `A`, `B`, `C`, `D`, or `E` (e.g. for sample A: `A_mri.npy` and `A_mask.npy`).
 
 - **`output/`**
    Empty folder to save the segmentation masks. 
@@ -52,7 +52,7 @@ HLoG_VBGMM/
 To run the model on a sample (e.g. A, B, C, D, or E), use the command prompt:
 
 ```
-python main.py 'X'
+python main.py X
 ```
 Replace X with the sample identifier (e.g. A, B, C, D, or E).
 
